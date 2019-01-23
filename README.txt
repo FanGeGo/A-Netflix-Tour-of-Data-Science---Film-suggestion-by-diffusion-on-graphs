@@ -23,18 +23,18 @@ Already computed data and the dataset used in this project are in the folder: "D
 
 The different adjacency matrices used in this project couldn't be pushed into the git.
 To be able to run correctly the different notebooks it is required to run the following notebooks till the section "2 - Exporting the graph for Gephi (by using Networkx)":
-    1. "Adjacency_Cast"
+    1. "Adjacency_Cast" and "Adjacency_Cast_Updated"
     2. "Adjacency_First_Role"
     3. "Adjacency_Genres"
-    4. "Adjacency_Crew"
+    4. "Adjacency_Crew" and "Adjacency_Crew_Updated"
 The other data should have been pushed correctly.
 
 However, if the folder is empty or not present you will need the following dataset as a starting point: Kaggle dataset - Films and Crew.
 Then the notebooks must be ran in the following order: 
-    1. "Adjacency_Cast"
+    1. "Adjacency_Cast" and "Adjacency_Cast_Updated"
     2. "Adjacency_First_Role"
     3. "Adjacency_Genres"
-    4. "Adjacency_Crew"
+    4. "Adjacency_Crew" and "Adjacency_Crew_Updated"
     5. At this point the different graphs must be exported to a csv file. We have used Gephi to export those files.
     6. "Signal_Vote_Average"
     7. "A_Netflix_Tour_of_Data_Science_Film_suggestion_by_diffusion_on_graphs"
